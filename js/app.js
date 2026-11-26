@@ -6,10 +6,10 @@ const plantas = [
     cientifico: "Matricaria chamomilla",
     categoria: "Flores",
     descripcion: "Planta herbácea de flores pequeñas con pétalos blancos y centro amarillo.",
-    cultivo: "Se desarrolla mejor en suelo ligero y bien drenado. Puede cultivarse en macetas o jardines.",
+    cultivo: "Se desarrolla mejor en suelo ligero y bien drenado.",
     luz: "Sol directo o semisombra luminosa.",
     riego: "Moderado. Evita el encharcamiento.",
-    cuidado: "Retira las flores marchitas para favorecer el crecimiento."
+    cuidado: "Retira las flores marchitas."
   },
   {
     id: 2,
@@ -17,10 +17,10 @@ const plantas = [
     cientifico: "Salvia rosmarinus",
     categoria: "Aromáticas",
     descripcion: "Arbusto perenne de hojas estrechas y aroma intenso.",
-    cultivo: "Prefiere suelos arenosos o bien drenados y espacios ventilados.",
-    luz: "Sol directo durante varias horas al día.",
-    riego: "Escaso a moderado. Deja secar el sustrato entre riegos.",
-    cuidado: "Poda ligeramente las ramas para conservar su forma."
+    cultivo: "Prefiere suelos arenosos y bien drenados.",
+    luz: "Sol directo.",
+    riego: "Escaso a moderado.",
+    cuidado: "Realiza podas ligeras para conservar su forma."
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const plantas = [
     cientifico: "Mentha spicata",
     categoria: "Aromáticas",
     descripcion: "Planta de hojas verdes, bordes dentados y aroma fresco.",
-    cultivo: "Crece bien en macetas. Conviene mantenerla en un recipiente propio porque se extiende rápidamente.",
+    cultivo: "Crece bien en macetas y se extiende rápidamente.",
     luz: "Semisombra o sol suave.",
     riego: "Regular, manteniendo el sustrato ligeramente húmedo.",
     cuidado: "Recorta las puntas para estimular nuevos brotes."
@@ -39,9 +39,9 @@ const plantas = [
     cientifico: "Lavandula angustifolia",
     categoria: "Flores",
     descripcion: "Planta aromática de flores violetas y hojas estrechas.",
-    cultivo: "Necesita suelo ligero, seco y con excelente drenaje.",
-    luz: "Sol directo y buena ventilación.",
-    riego: "Moderado a escaso, evitando el exceso de humedad.",
+    cultivo: "Necesita suelo ligero y excelente drenaje.",
+    luz: "Sol directo.",
+    riego: "Moderado a escaso.",
     cuidado: "Realiza podas ligeras después de la floración."
   },
   {
@@ -49,22 +49,22 @@ const plantas = [
     nome: "Aloe vera",
     cientifico: "Aloe vera",
     categoria: "Suculentas",
-    descripcion: "Planta suculenta de hojas gruesas y carnosas dispuestas en roseta.",
-    cultivo: "Utiliza sustrato para cactus y macetas con orificios de drenaje.",
-    luz: "Luz abundante; acostúmbrala gradualmente al sol directo.",
-    riego: "Escaso. Espera a que el sustrato se seque antes de volver a regar.",
-    cuidado: "Protege la planta de las heladas y del exceso de agua."
+    descripcion: "Planta suculenta de hojas gruesas y carnosas.",
+    cultivo: "Utiliza sustrato para cactus y macetas con drenaje.",
+    luz: "Luz abundante.",
+    riego: "Escaso. Espera a que el sustrato se seque.",
+    cuidado: "Protégela de las heladas y del exceso de agua."
   },
   {
     id: 6,
     nome: "Albahaca",
     cientifico: "Ocimum basilicum",
     categoria: "Aromáticas",
-    descripcion: "Planta aromática de hojas suaves y verdes, muy utilizada en jardines y huertos.",
-    cultivo: "Crece bien en macetas con tierra fértil y buen drenaje.",
+    descripcion: "Planta aromática de hojas suaves y verdes.",
+    cultivo: "Crece bien en tierra fértil y bien drenada.",
     luz: "Sol suave o semisombra luminosa.",
     riego: "Regular, sin dejar agua acumulada.",
-    cuidado: "Retira las flores cuando quieras favorecer el crecimiento de las hojas."
+    cuidado: "Retira las flores para favorecer el crecimiento de hojas."
   },
   {
     id: 7,
@@ -72,32 +72,32 @@ const plantas = [
     cientifico: "Petroselinum crispum",
     categoria: "Aromáticas",
     descripcion: "Planta de hojas verdes divididas y crecimiento compacto.",
-    cultivo: "Prefiere suelo fértil, fresco y con buen drenaje.",
+    cultivo: "Prefiere suelo fértil, fresco y bien drenado.",
     luz: "Sol suave o semisombra.",
-    riego: "Regular, manteniendo cierta humedad en la tierra.",
-    cuidado: "Retira hojas amarillas y cosecha las hojas exteriores."
+    riego: "Regular.",
+    cuidado: "Retira las hojas amarillas."
   },
   {
     id: 8,
     nome: "Caléndula",
     cientifico: "Calendula officinalis",
     categoria: "Flores",
-    descripcion: "Planta de flores amarillas o anaranjadas y aspecto ornamental.",
-    cultivo: "Se adapta a jardines y macetas con suelo bien drenado.",
+    descripcion: "Planta ornamental de flores amarillas o anaranjadas.",
+    cultivo: "Se adapta a jardines y macetas.",
     luz: "Sol directo o semisombra.",
-    riego: "Moderado, evitando mojar constantemente el suelo.",
-    cuidado: "Retira las flores marchitas para prolongar la floración."
+    riego: "Moderado.",
+    cuidado: "Retira las flores marchitas."
   },
   {
     id: 9,
     nome: "Tomillo",
     cientifico: "Thymus vulgaris",
     categoria: "Aromáticas",
-    descripcion: "Pequeño arbusto aromático de hojas diminutas y tallos leñosos.",
-    cultivo: "Prefiere suelos ligeros, secos y con excelente drenaje.",
+    descripcion: "Pequeño arbusto aromático de hojas diminutas.",
+    cultivo: "Prefiere suelos ligeros y secos.",
     luz: "Sol directo.",
-    riego: "Escaso. Tolera periodos cortos de sequedad una vez establecido.",
-    cuidado: "Evita el exceso de fertilizante y realiza podas suaves."
+    riego: "Escaso.",
+    cuidado: "Evita el exceso de fertilizante."
   },
   {
     id: 10,
@@ -105,10 +105,120 @@ const plantas = [
     cientifico: "Origanum vulgare",
     categoria: "Aromáticas",
     descripcion: "Planta perenne de hojas pequeñas y aroma característico.",
-    cultivo: "Puede crecer en macetas o jardines con suelo bien drenado.",
+    cultivo: "Puede crecer en macetas o jardines.",
     luz: "Sol directo.",
-    riego: "Moderado a escaso, según el clima y la humedad del suelo.",
-    cuidado: "Poda las ramas para estimular un crecimiento más compacto."
+    riego: "Moderado a escaso.",
+    cuidado: "Poda las ramas para estimular un crecimiento compacto."
+  },
+  {
+    id: 11,
+    nome: "Cilantro",
+    cientifico: "Coriandrum sativum",
+    categoria: "Aromáticas",
+    descripcion: "Planta anual de hojas verdes delicadas y flores pequeñas.",
+    cultivo: "Prefiere suelo suelto y fértil. Puede cultivarse en macetas.",
+    luz: "Sol suave o semisombra en climas cálidos.",
+    riego: "Regular, sin encharcar.",
+    cuidado: "Siembra escalonadamente para prolongar la cosecha."
+  },
+  {
+    id: 12,
+    nome: "Salvia",
+    cientifico: "Salvia officinalis",
+    categoria: "Aromáticas",
+    descripcion: "Planta perenne de hojas aterciopeladas y color verde grisáceo.",
+    cultivo: "Necesita suelo ligero y buen drenaje.",
+    luz: "Sol directo.",
+    riego: "Moderado a escaso.",
+    cuidado: "Poda ligeramente después de la floración."
+  },
+  {
+    id: 13,
+    nome: "Toronjil",
+    cientifico: "Melissa officinalis",
+    categoria: "Aromáticas",
+    descripcion: "Planta de hojas verdes con bordes dentados y aroma cítrico.",
+    cultivo: "Crece bien en suelo fértil y macetas amplias.",
+    luz: "Semisombra o sol suave.",
+    riego: "Regular, manteniendo cierta humedad.",
+    cuidado: "Recorta las ramas para controlar su crecimiento."
+  },
+  {
+    id: 14,
+    nome: "Cebollino",
+    cientifico: "Allium schoenoprasum",
+    categoria: "Aromáticas",
+    descripcion: "Planta de hojas finas, verdes y cilíndricas.",
+    cultivo: "Se adapta bien a macetas con tierra fértil.",
+    luz: "Sol suave o semisombra.",
+    riego: "Regular, evitando el encharcamiento.",
+    cuidado: "Corta las hojas dejando una parte de la base."
+  },
+  {
+    id: 15,
+    nome: "Eneldo",
+    cientifico: "Anethum graveolens",
+    categoria: "Aromáticas",
+    descripcion: "Planta anual de hojas finas y aspecto plumoso.",
+    cultivo: "Prefiere suelo ligero y un lugar protegido del viento fuerte.",
+    luz: "Sol directo.",
+    riego: "Moderado y regular.",
+    cuidado: "Evita trasplantarla repetidamente porque tiene raíces delicadas."
+  },
+  {
+    id: 16,
+    nome: "Hinojo",
+    cientifico: "Foeniculum vulgare",
+    categoria: "Aromáticas",
+    descripcion: "Planta de follaje fino y aroma anisado.",
+    cultivo: "Necesita espacio y suelo profundo con buen drenaje.",
+    luz: "Sol directo.",
+    riego: "Regular, especialmente durante el crecimiento.",
+    cuidado: "Deja espacio entre plantas para su desarrollo."
+  },
+  {
+    id: 17,
+    nome: "Capuchina",
+    cientifico: "Tropaeolum majus",
+    categoria: "Flores",
+    descripcion: "Planta ornamental de hojas redondeadas y flores vistosas.",
+    cultivo: "Crece en macetas y jardines con suelo bien drenado.",
+    luz: "Sol o semisombra.",
+    riego: "Moderado.",
+    cuidado: "Retira hojas deterioradas y controla su expansión."
+  },
+  {
+    id: 18,
+    nome: "Pensamiento",
+    cientifico: "Viola × wittrockiana",
+    categoria: "Flores",
+    descripcion: "Planta ornamental de flores coloridas y pétalos característicos.",
+    cultivo: "Prefiere suelo fértil, fresco y bien drenado.",
+    luz: "Sol suave o semisombra.",
+    riego: "Regular, evitando mojar en exceso las flores.",
+    cuidado: "Retira flores marchitas para estimular nuevas floraciones."
+  },
+  {
+    id: 19,
+    nome: "Geranio",
+    cientifico: "Pelargonium × hortorum",
+    categoria: "Flores",
+    descripcion: "Planta ornamental de hojas redondeadas y flores agrupadas.",
+    cultivo: "Se adapta bien a macetas y jardineras.",
+    luz: "Sol suave o semisombra luminosa.",
+    riego: "Moderado, dejando secar parcialmente la superficie.",
+    cuidado: "Retira flores secas y hojas amarillas."
+  },
+  {
+    id: 20,
+    nome: "Jazmín",
+    cientifico: "Jasminum officinale",
+    categoria: "Flores",
+    descripcion: "Planta trepadora de flores claras y fragancia característica.",
+    cultivo: "Necesita soporte para crecer y suelo fértil con drenaje.",
+    luz: "Sol o semisombra luminosa.",
+    riego: "Regular durante el crecimiento.",
+    cuidado: "Guía sus ramas y realiza podas después de la floración."
   }
 ];
 
@@ -154,15 +264,13 @@ function mostrarPlantas(filtro = "", soloFavoritos = false) {
       planta.categoria
     ).toLowerCase();
 
-    const coincide = texto.includes(filtro.toLowerCase());
-    const favorita = favoritos.includes(planta.id);
-
-    return coincide && (!soloFavoritos || favorita);
+    return texto.includes(filtro.toLowerCase()) &&
+      (!soloFavoritos || favoritos.includes(planta.id));
   });
 
   contenido.innerHTML = `
     <h2>${soloFavoritos ? "Mis favoritos" : "Biblioteca botánica"}</h2>
-    <p>Explora las fichas de nuestras plantas.</p>
+    <p>${plantas.length} plantas disponibles</p>
 
     <input
       class="search"
@@ -237,8 +345,7 @@ function mostrarFicha(id) {
       pueden variar según la región. Confirma siempre la identidad
       botánica antes de cualquier uso. Estas fichas no son
       indicaciones de consumo ni tratamientos médicos.
-      Mantén las plantas fuera del alcance de niños y mascotas
-      cuando exista riesgo de toxicidad.
+      Verifica la seguridad de cada especie para niños y mascotas.
     </small></p>
   `;
 
@@ -294,3 +401,4 @@ contenido.addEventListener("click", event => {
 });
 
 mostrarPlantas();
+
