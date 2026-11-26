@@ -248,6 +248,15 @@ function abrirFicha(id) {
       <p class="categoria">${escapar(planta.categoria)}</p>
       <h2>${escapar(planta.nome)}</h2>
       <p><em>${escapar(planta.cientifico)}</em></p>
+
+      ${planta.imagen ? `
+        <img
+          src="${escapar(planta.imagen)}"
+          alt="${escapar(planta.nome)}"
+          style="width:100%;max-width:650px;display:block;margin:20px auto;border-radius:8px;"
+        >
+      ` : ""}
+
       <div class="card">
         <h3>Descripción botánica</h3>
         <p>${escapar(planta.descricao)}</p>
